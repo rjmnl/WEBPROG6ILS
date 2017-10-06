@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <style type="text/css">
+ 
+            body {font-family:Arial, Sans-Serif;}
+ 
+            #container {width:300px; margin:0 auto;}
+ 
+            /* Nicely lines up the labels. */
+            form label {display:inline-block; width:140px;}
+ 
+            /* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
+            form input[type="text"],
+            form input[type="password"],
+            form input[type="email"] {width:160px;}
+ 
+            form .line {clear:both;}
+            form .line.submit {text-align:right;}
+ 
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <form>
+			<div>
+                <h1>Create Logon</h1>
+                Last Name:<input type="text" name="ln">
+				<br></br>
+				First Name:<input type="text" name="fn">
+				<br></br>
+				Middle Name:<input type="text" name="mn">
+				<br></br>
+				Age:<input type="text" name="age">
+				<br></br>
+				Contact#:<input type="text" name="cn">
+				<br></br>
+				Email Address:<input type="text" name="ea">
+				<br></br>
+				Course:<input type="text" name="c">
+				<br></br>
+				Address:<input type="text" name="adrs">
+				<br></br>
+				City:<input type="text" name="cty">
+				<br></br>
+				Graduated School:<input type="text" name="gs">
+				<br></br>
+				Student's LRN:<input type="text" name="sl">
+				<br></br>
+				Parents/Guardian:<input type="text" name="pg">
+				<br></br>
+				Contact#:<input type="text" name="cnpg">
+				
+				</div>
+                <p>Note: Please make sure your details are correct before submitting form and that all fields marked with * are completed!.</p>
+            </form>
+        </div>
+    </body>
+</html>
